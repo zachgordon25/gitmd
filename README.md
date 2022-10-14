@@ -65,7 +65,7 @@ You work with **git** for your local tracking.
 
 ### Github
 
-Github is a company that will store your documents "in the cloud". You can have access to your code from any machine from their company website: www.github.com or their enterprise site: https://enterprise.github.com.
+Github is a company that will store your documents "in the cloud". You can have access to your code from any machine from their company website: www.github.com or their enterprise site: https://enterprise.github.com{target="_blank"}.
 
 **Github:** the code that you write here is public and it can be seen by all! You used this for Fundamentals and will be using it for your projects during the course.
 
