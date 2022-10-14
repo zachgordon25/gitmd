@@ -248,7 +248,7 @@ GOTCHA: Do not initialize a git repository inside of another git repository, do 
 
 1. `touch README.md`
 
-1. `atom README.md` and type some text and save the file
+1. `code README.md` and type some text and save the file
 
 1. in terminal, `git add README.md`, `git commit -m 'first commit'`
 
