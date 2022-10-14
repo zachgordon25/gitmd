@@ -90,7 +90,7 @@ Git has some funny phrasing.
 
 \* `pull` can also mean a request for someone to pull in your code - on github you may see something called `pull requests`
 
-When you use bash you are talking to your computer. There is a structure to the commands you tell it.
+When you use bash (terminal shell) you are talking to your computer. There is a structure to the commands you tell it.
 
 A git command has a minimum of 1 argument.
 
@@ -122,8 +122,6 @@ Here is a table of our commonly used git commands:
 | git |   push   |          origin dev          |                                       Sends files to a url with an alias of `origin` to its branch `dev`                                       |
 | git |   log    |          --oneline           |                              Shows a log of commits of a repo (--oneline shows a truncated message)_`q` to exit_                               |
 | git |  status  |                              |                                        Shows the state of files in a repo (untracked, modified, staged)                                        |
-
-[Link to our wiki with a more complete list of git commands](../../../../../wiki/Git-Cheatsheet)
 
 Note: `fork` is not on this list because `fork` is not a git command; it is github-specific for copying a repository on github to a new location on github.
 
@@ -182,9 +180,9 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
    ![repo name](https://i.imgur.com/j8Ex7hX.png)
 
-1. This will be a **public** repo. Private repos required a paid account.
+1. You have the option of making this repo either a **public** or **private**.
 
-1. Click on the "Initialize this repository with a README". A README file is just a blank document that is the default page that your repository displays. It is a markdown file and normally includes information that you provide about your application.
+1. Click on the "Initialize this repository with a README". A README file is just a blank document that is the default page that your repository displays. It is a markdown file and normally includes information that you provide about your application. What you are reading right now is a README file.
 
    ![readme](https://i.imgur.com/OMX3sah.png)
 
