@@ -104,7 +104,7 @@ The first argument is the command (or verb), like
 The second(+) argument gives the first argument context (when needed)
 
 - `git add .` (add all files in this directory)
-- `git pull origin master` (get all files from the url that has an alias of `origin`, from the branch `master`)
+- `git pull origin main` (get all files from the url that has an alias of `origin`, from the branch `main`)
 
 Lastly, flags can be added
 
@@ -118,7 +118,7 @@ Here is a table of our commonly used git commands:
 | git |   add    |       `.` or filename        |                             Takes untracked files and adds them to the staging area so that they can be committed                              |
 | git |  commit  |      -m 'some message'       |                             Takes a snapshot of files in the staging area/ saves this version of them as a commit                              |
 | git |  remote  |              -v              | Shows the remote repositories associated with the local repository. Most repositories have an alias for their urls like `origin` or `upstream` |
-| git |   pull   |       upstream master        |                                   Gets files from a url with an alias of `upstream` from its branch `master`                                   |
+| git |   pull   |        upstream main         |                                    Gets files from a url with an alias of `upstream` from its branch `main`                                    |
 | git |   push   |          origin dev          |                                       Sends files to a url with an alias of `origin` to its branch `dev`                                       |
 | git |   log    |          --oneline           |                              Shows a log of commits of a repo (--oneline shows a truncated message)_`q` to exit_                               |
 | git |  status  |                              |                                        Shows the state of files in a repo (untracked, modified, staged)                                        |
@@ -218,7 +218,7 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
 1. `git commit -m 'my first commit'` - this will take a 'snapshot of your file' and have a message attatched to it
 
-1. `git push origin master` - this should send your changes to your github repo
+1. `git push origin main` - this should send your changes to your github repo
 
 1. Go back to the browser, refresh, you should see your updated readme!
 
@@ -228,7 +228,7 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
 This will show you the name of the remote, by default it is called `origin`. Rather than typing `https://github.com/stuff/morestuff/blahblablah` every single time you want to connect with your repo, you just type `origin` instead - less typing = working smarter, not harder!
 
-You'll also see the branch name, by default `master`, you can have many branches and their utility is amazing! In fact it is the branching of git that makes it a top choice. But for today, we'll just work with our master branch.
+You'll also see the branch name, by default `main`, you can have many branches and their utility is amazing! In fact it is the branching of git that makes it a top choice. But for today, we'll just work with our main branch.
 
 <hr>
 
@@ -264,7 +264,7 @@ GOTCHA: Do not initialize a git repository inside of another git repository, do 
 
 1. Confirm that you have the remote created by running the command `git remote -v`, you should see the URL you added. If you see nothing, then something went wrong.
 
-1. Grab the second bash command from github, it should be something like `git push -u origin master`
+1. Grab the second bash command from github, it should be something like `git push -u origin main`
 
 1. Go back to Github and refresh your page. Your README file should now be pushed up from your local repo to your Github repo.
 
@@ -282,13 +282,13 @@ Sometimes we want to interact with another user's repo. We can safely do this by
 
 ### Part 1 - Explain Forking
 
-The instructors will have a master copy of the class repo. Only the instructional team can modify this repo.
+The instructors will have a main copy of the class repo. Only the instructional team can modify this repo.
 
-You'll get the updates and changes we make by doing `git pull upstream master`
+You'll get the updates and changes we make by doing `git pull upstream main`
 
 You'll do lab work, homework, morning exercises in your local (on your computer) copy.
 
-Then you'll `git push origin master`, which will send your local work to github. It'll be a copy on the cloud, that we can access in order to grade your homework, or help you troubleshoot something.
+Then you'll `git push origin main`, which will send your local work to github. It'll be a copy on the cloud, that we can access in order to grade your homework, or help you troubleshoot something.
 
 Visually:
 
@@ -392,9 +392,9 @@ And, upstream should be associated with the instructor copy. There should be `se
 
 4) In your terminal / Git Bash, run the command `git commit -m" add a message here about what you did"` to commit the files.
 
-5. In your terminal / Git Bash, run the command `git push origin master` to push your work from your local machine to your repository on Github.
+5. In your terminal / Git Bash, run the command `git push origin main` to push your work from your local machine to your repository on Github.
 
-NOTE: `origin` here refers to the default variable name that git has assigned to your repository. `master` refers to the default branch that Github creates for you when you make a new repository.
+NOTE: `origin` here refers to the default variable name that git has assigned to your repository. `main` refers to the default branch that Github creates for you when you make a new repository.
 
 6. Go to Github, look at your forked repo, refresh the page. Your changes should now appear in the file.
 
@@ -461,7 +461,7 @@ With that in mind, what if you accidentally made something a git repo? Or you no
 
 <!-- ## See Which Branch You're On
 
-Some people like seeing what branch their on/if they are in a git repository by having a message in the terminal prompt. In this case the master branch is listed in green:
+Some people like seeing what branch their on/if they are in a git repository by having a message in the terminal prompt. In this case the main branch is listed in green:
 
 ![](https://i.imgur.com/ejthVDL.png)
 
