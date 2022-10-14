@@ -194,9 +194,9 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
    ![clone and download](https://i.imgur.com/eQAy4O3.png)
 
-1. Open your terminal / Git Bash - it's time to make a local copy of this Github repo!
+1. Open your terminal - it's time to make a local copy of this Github repo!
 
-1. In your terminal / Git Bash, navigate to the folder where you would like to keep the folder for this repo. Let's use that `github_practice` folder we created on our desktop
+1. In your terminal, navigate to the folder where you would like to keep the folder for this repo. Let's use that `github_practice` folder we created on our desktop
 
 1. `cd` into `github_practice` DO NOT create a new folder for our repo, when we use `git clone` it will create a new folder for us
 
