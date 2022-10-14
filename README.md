@@ -39,7 +39,7 @@ Github is a company that offers storage for your files. It offers a way for peop
 
 ## Who Uses It?
 
-Companies who share their code: https://octoverse.github.com/
+Companies who share their code: https://github.com/d2s/companies/blob/master/src/index.md
 
 - Nasa:
   - https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
