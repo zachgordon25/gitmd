@@ -11,7 +11,6 @@
 1. Commit files
 1. Push files
 1. Pull changes from remote repo
-1. Fork a repo
 1. Create a github issue
 1. Unmake a git repository
 1. An introduction beyond the basics (branching merging), adding an SSH key, customizing your terminal to show your git branch
