@@ -167,31 +167,27 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
 1. Go to your GitHub enterprise account and log in to your account.
 
-1. Click on the plus sign next to your profile photo at the top-right corner of your page:
+1. Click on the plus sign next to your profile photo at the top-right corner of your page and click on `New repository`:
 
-   ![new repo](https://i.imgur.com/u21yY3L.png)
+   ![new repo](images/new-repo.png)
 
-1. Click on `New repository`
+1. Create a new repo by entering a name in the `Repository Name` field. Note that this name has to be _unique_ to your repository. Let's use the name `repo-practice`
 
-   ![new repo click](https://i.imgur.com/w9tkj8J.png)
-
-1. Create a new repo by entering a name in the `Repository Name` field. Note that this name has to be _unique_ to your repository. Let's use the random name that they suggested for me: `repo-practice`
-
-   ![repo name](https://i.imgur.com/j8Ex7hX.png)
+   ![repo name](images/repo-name.png)
 
 1. You have the option of making this repo either a **public** or **private**.
 
 1. Click on the "Initialize this repository with a README". A README file is just a blank document that is the default page that your repository displays. It is a markdown file and normally includes information that you provide about your application. What you are reading right now is a README file.
 
-   ![readme](https://i.imgur.com/OMX3sah.png)
+   ![readme](images/readme.png)
 
 1. Click `Create repository`. You should be redirected to the newly made repo.
 
-1. Click on the `Clone or download` button.
+1. Click on the `Code` button.
 
 1. Copy the link (this is the direct link that is created by GitHub to your repo).
 
-   ![clone and download](https://i.imgur.com/eQAy4O3.png)
+   ![clone and download](images/clone.png)
 
 1. Open your terminal - it's time to make a local copy of this GitHub repo!
 
@@ -201,15 +197,15 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
 1. Type the git command `git clone` followed by the link to your repo.
 
-   ![clone](https://i.imgur.com/SaOFuio.png)
+![clone](images/clone-command.png)
 
-1. That's it! Type `ls` to see your folder's contents. Your new repo should be there. Navigate inside the folder, type `ls` and confirm that you have a `README.md` file.
+13. That's it! Type `ls` to see your folder's contents. Your new repo should be there. Navigate inside the folder, type `ls` and confirm that you have a `README.md` file.
 
-1. Go ahead and open the `README.md` in your text editor (Bonus! Do it from the command line!). You can write plain text in a markdown file. So you can send yourself a message! If you don't know what to write, go with a classic `Hello World!` , save this file.
+14. Go ahead and open the `README.md` in your text editor (Bonus! Do it from the command line!). You can write plain text in a markdown file. So you can send yourself a message! If you don't know what to write, go with a classic `Hello World!` , save this file.
 
-1. In terminal type `git status`
+15. In terminal type `git status`
 
-1. `git add .` to add your file to be `staged` - this will tell git that you'd like to track this file's changes
+16. `git add .` to add your file to be `staged` - this will tell git that you'd like to track this file's changes
 
 **Note:** `git add .` adds everything in the current directory, including directories inside this directory. It's like a waterfall. It will never add files above where you are in terminal.
 
@@ -289,11 +285,11 @@ You can check if you are in a git repo by typing `git status`
 
 You are NOT in a git repo if you get this message:
 
-![not a git repo](https://i.imgur.com/gDdafBl.png)
+![not a git repo](images/fatal.png)
 
 You ARE in a git repo if you get a different message. Here is one sample one
 
-![in a git repo](https://i.imgur.com/m3fYhmC.png)
+![in a git repo](images/in-repo.png)
 
 If you are in the root of your git repository you can type `ls -a` to show your hidden files and you'll see a folder `.git`
 
