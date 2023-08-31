@@ -1,11 +1,11 @@
-# Git & Github
+# Git & GitHub
 
 ## Lesson Agenda
 
 1. What is Git?
-1. What is Github?
+1. What is GitHub?
 1. How do they work together?
-1. Set up SSL
+1. Set up SSH
 1. How do you make a repository and clone it?
 1. Stage files
 1. Commit files
@@ -32,9 +32,9 @@ A version control system - a way to track changes in your computer.
 
 Git does this for you "behind the scenes"!
 
-## What is Github?
+## What is GitHub?
 
-Github is a company that offers storage for your files. It offers a way for people to easily share their files through forking & cloning. In addition, collaboration is made possible by allowing multiple people to become collaborators on repositories.
+GitHub is a company that offers storage for your files. It offers a way for people to easily share their files through forking & cloning. In addition, collaboration is made possible by allowing multiple people to become collaborators on repositories.
 
 ## Who Uses It?
 
@@ -52,9 +52,9 @@ Companies who share their code: https://github.com/d2s/companies/blob/master/src
 You can read more information on this history of [file sharing from Wikipedia](https://en.wikipedia.org/wiki/File_sharing)
 In the days of old, people used [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [CSV](https://en.wikipedia.org/wiki/Comma-separated_values),and [SVN](https://en.wikipedia.org/wiki/Apache_Subversion).
 
-Another popular cloud solution that is used with git, Github's competitor, is [Bitbucket](https://bitbucket.org/).
+Another popular cloud solution that is used with git, GitHub's competitor, is [Bitbucket](https://bitbucket.org/).
 
-## How Do Git and Github Interact?
+## How Do Git and GitHub Interact?
 
 ### Git
 
@@ -62,15 +62,15 @@ You work with **git** for your local tracking.
 
 ![git](https://i.imgur.com/JI8rNwP.png)
 
-### Github
+### GitHub
 
-Github is a company that will store your documents "in the cloud". You can have access to your code from any machine from their company website: www.github.com.
+GitHub is a company that will store your documents "in the cloud". You can have access to your code from any machine from their company website: www.github.com.
 
 ![github](https://i.imgur.com/c92z3Wx.png)
 
 ### Your Part in Their Relationship
 
-You play the most important part in this relationship. You have to tell **git** whether to track files. In addition, you can also tell **git** to send your work to **Github**.
+You play the most important part in this relationship. You have to tell **git** whether to track files. In addition, you can also tell **git** to send your work to **GitHub**.
 
 You do all of this with **git** commands on your command line / terminal.
 
@@ -144,7 +144,7 @@ You may be thinking 'this sounds too good to be true!' It's not! But there is a 
 
 ![git workflow from git about page](https://i.imgur.com/MXiZRI0.png)
 
-## SSL Key
+## SSH Key
 
 - When you use `https` to connect to github, it will likely ask for your password often.
 
@@ -155,7 +155,7 @@ You may be thinking 'this sounds too good to be true!' It's not! But there is a 
 
 Both will give you all the rest of the same features. It's just a matter if you'd like to spend more time setting up first or if you don't mind entering your password more often.
 
-## Practice Making a Github Repo
+## Practice Making a GitHub Repo
 
 ### 2 Ways :octocat:
 
@@ -163,9 +163,9 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
 `cd` into that folder in terminal
 
-#### 1. Making a repo on Github first and cloning it locally
+#### 1. Making a repo on GitHub first and cloning it locally
 
-1. Go to your Github enterprise account and log in to your account.
+1. Go to your GitHub enterprise account and log in to your account.
 
 1. Click on the plus sign next to your profile photo at the top-right corner of your page:
 
@@ -189,11 +189,11 @@ For both ways, let's make a folder on our `Desktop` called `github_practice`
 
 1. Click on the `Clone or download` button.
 
-1. Copy the link (this is the direct link that is created by Github to your repo).
+1. Copy the link (this is the direct link that is created by GitHub to your repo).
 
    ![clone and download](https://i.imgur.com/eQAy4O3.png)
 
-1. Open your terminal - it's time to make a local copy of this Github repo!
+1. Open your terminal - it's time to make a local copy of this GitHub repo!
 
 1. In your terminal, navigate to the folder where you would like to keep the folder for this repo. Let's use that `github_practice` folder we created on our desktop
 
@@ -231,7 +231,7 @@ You'll also see the branch name, by default `main`, you can have many branches a
 
 <hr>
 
-#### 2. Making a local folder, turning it into a git repo, pushing it up to Github
+#### 2. Making a local folder, turning it into a git repo, pushing it up to GitHub
 
 1. Navigate to the folder where you're keeping the files for this lesson. Likely, you just need to `cd ..` back to the `github_practice` folder's root.
 
@@ -251,9 +251,9 @@ GOTCHA: Do not initialize a git repository inside of another git repository, do 
 
 1. in terminal, `git add README.md`, `git commit -m 'first commit'`
 
-1. We now have a local git repo, we have to create a repo on Github and connect it. Navigate to Github and log in if you're not logged in already.
+1. We now have a local git repo, we have to create a repo on GitHub and connect it. Navigate to GitHub and log in if you're not logged in already.
 
-1. Create a new Github repo. Let's give it the name `another_project` (note that this is the same as our local file, but it does not have to be for it to work).
+1. Create a new GitHub repo. Let's give it the name `another_project` (note that this is the same as our local file, but it does not have to be for it to work).
 
 1. **Do not** initialize a README (we already made it on our own in our local repo).
 
@@ -265,7 +265,7 @@ GOTCHA: Do not initialize a git repository inside of another git repository, do 
 
 1. Grab the second bash command from github, it should be something like `git push -u origin main`
 
-1. Go back to Github and refresh your page. Your README file should now be pushed up from your local repo to your Github repo.
+1. Go back to GitHub and refresh your page. Your README file should now be pushed up from your local repo to your GitHub repo.
 
 ## Interacting with Other People's Repos
 
